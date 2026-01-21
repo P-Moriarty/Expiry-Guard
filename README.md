@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# Expiry-Guard
+Expiry Guard is a minimalist, robust React Native (Expo) application designed to track expiration dates for groceries, documents, and medications. It leverages AI for automated data entry and smart reminders.
+>>>>>>> cf61d9933e0d9736a16e1ae9bdf92a1b118674a3
