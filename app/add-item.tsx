@@ -19,6 +19,12 @@ export default function AddItemScreen() {
     const router = useRouter();
 
     const handleAIScan = async () => {
+        const { status } = await ImagePicker.requestCameraPermissionsAsync();
+        if (status !== 'granted') {
+            alert('Sorry, we need camera permissions to scan items!');
+            return;
+        }
+
         const result = await ImagePicker.launchCameraAsync({
             mediaTypes: ['images'],
             allowsEditing: true,

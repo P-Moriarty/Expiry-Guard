@@ -97,7 +97,10 @@ export default function HomeScreen() {
           <ThemedText type="title" style={styles.title}>Expiry Guard</ThemedText>
           <ThemedText style={styles.subtitle}>Keep track of what matters</ThemedText>
         </View>
-        <TouchableOpacity style={styles.iconButton}>
+        <TouchableOpacity
+          style={styles.iconButton}
+          onPress={() => router.push('/notifications')}
+        >
           <Bell size={24} color="#FFF" />
         </TouchableOpacity>
       </Animated.View>
